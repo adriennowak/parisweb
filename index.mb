@@ -8,12 +8,12 @@ authors: jean, jacques
 
 Texte de ma page
 
-{{site.title}}
+{{site.description}}
 
 <h1>{{page.title}}</h1>
 
 <ul>
-	{% for page in site.page%}
-		<li><a href="">{{page.title}}</a></li>
+	{% for page in site.html_pages %}
+		<li><a href="{{page.title}}">{{page.title}}</a></li>
 	{% endfor%}
 </ul>
