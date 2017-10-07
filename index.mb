@@ -1,0 +1,13 @@
+---
+title: Page d'accueil
+description: ma description
+authors: jean, jacques
+---
+
+# parisweb page
+
+Texte de ma page
+
+{{site.title}}
+
+<h1>{{page.title}}</h1>
