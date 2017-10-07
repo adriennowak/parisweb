@@ -4,10 +4,16 @@ description: ma description
 authors: jean, jacques
 ---
 
-# parisweb page
+# titre de ma page parisweb page
 
 Texte de ma page
 
 {{site.title}}
 
 <h1>{{page.title}}</h1>
+
+<ul>
+	{% for page in site.page%}
+		<li><a href="">{{page.title}}</a></li>
+	{% endfor%}
+</ul>
